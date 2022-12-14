@@ -3,14 +3,19 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/loginFragment">
+    app:startDestination="@id/welcomeScreenFragment">
 
 
     <fragment
         android:id="@+id/loginFragment"
         android:name="android.example.com.udacityfiristproject.ui.login.LoginFragment"
-        android:label="LoginFragment"
+        android:label="Login"
         tools:layout="@layout/login_fragment"/>
+    <fragment
+        android:id="@+id/welcomeScreenFragment"
+        android:name="android.example.com.udacityfiristproject.ui.welcome.WelcomeScreenFragment"
+        android:label="Welcome Screen"
+        tools:layout="@layout/welcome_screen_fragment"/>
 
 
 </navigation>
