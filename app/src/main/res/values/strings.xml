@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">UdacityFiristProject</string>
+
+    <string name="email">Email</string>
+    <string name="email_hint">Please Enter Your E-mail</string>
+    <string name="password">Password</string>
+    <string name="password_hint">Please Enter Your Password</string>
+    <string name="login_with_email">login</string>
+    <string name="signup">Signup</string>
+    <string name="or_signup">If you don\'t have account you can signup with new account</string>
 </resources>
