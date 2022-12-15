@@ -6,7 +6,7 @@
 
         <variable
             name="welcomeViewModel"
-            type="android.example.com.udacityfiristproject.ui.welcome.WelcomeScreenViewModel" />
+            type="android.example.com.udacityfirstproject.ui.welcome.WelcomeScreenViewModel" />
     </data>
 
     <!--i've used linear layout because it's a simple layout-->

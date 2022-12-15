@@ -1,6 +1,6 @@
-package android.example.com.udacityfiristproject
+package android.example.com.udacityfirstproject
 
-import android.example.com.udacityfiristproject.databinding.ActivityMainBinding
+import android.example.com.udacityfirstproject.databinding.ActivityMainBinding
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil

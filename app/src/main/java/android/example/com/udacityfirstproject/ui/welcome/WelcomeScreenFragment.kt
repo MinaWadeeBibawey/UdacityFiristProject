@@ -1,6 +1,6 @@
-package android.example.com.udacityfiristproject.ui.welcome
+package android.example.com.udacityfirstproject.ui.welcome
 
-import android.example.com.udacityfiristproject.databinding.WelcomeScreenFragmentBinding
+import android.example.com.udacityfirstproject.databinding.WelcomeScreenFragmentBinding
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View

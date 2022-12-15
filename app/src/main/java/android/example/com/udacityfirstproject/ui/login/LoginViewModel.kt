@@ -1,6 +1,6 @@
-package android.example.com.udacityfiristproject.ui.login
+package android.example.com.udacityfirstproject.ui.login
 
-import android.example.com.udacityfiristproject.models.LoginModel
+import android.example.com.udacityfirstproject.models.LoginModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel

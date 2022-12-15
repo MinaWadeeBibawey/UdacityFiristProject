@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">UdacityFiristProject</string>
+    <string name="app_name">UdacityFirstProject</string>
 
     <!--Login Screen-->
     <string name="email">Email</string>
