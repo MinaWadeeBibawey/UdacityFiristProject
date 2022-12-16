@@ -6,7 +6,7 @@
     <string name="email_hint">Please Enter Your E-mail</string>
     <string name="password">Password</string>
     <string name="password_hint">Please Enter Your Password</string>
-    <string name="login_with_email">login</string>
+    <string name="login_with_email">Login</string>
     <string name="signup">Signup</string>
     <string name="or_signup">If you don\'t have account you can signup with new account</string>
 
@@ -16,11 +16,24 @@
     <string name="lets_start">Let\'s Start</string>
 
     <!--Instruction Screen-->
-    <string name="bullet">\u25CF</string>
     <string name="instruction_title">Welcome to the Shoe app</string>
     <string name="instruction_points_title">Here\'s some instruction points about the app you should to know before start using the shoe app</string>
     <string name="first_note_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
     <string name="second_note_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
     <string name="third_note_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="bullet">\u25CF</string>
+
+    <!--Show Details Screen-->
+    <string name="shoeName_title">shoe Name</string>
+    <string name="company_title">company</string>
+    <string name="shoeSize_title">shoe Size</string>
+    <string name="description_title">description</string>
+    <string name="shoeName_hint">Please enter shoe name</string>
+    <string name="company_hint">Please enter company</string>
+    <string name="shoeSize_hint">Please enter shoe size</string>
+    <string name="description_hint">Please enter description</string>
+    <string name="shoe_details_title">Fill the data and press save button to save your new shoes in the list</string>
+    <string name="save_button">Save</string>
+    <string name="cancel_button">Cancel</string>
 
 </resources>

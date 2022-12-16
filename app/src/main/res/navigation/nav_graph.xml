@@ -42,7 +42,21 @@
         android:id="@+id/instructionFragment"
         android:name="android.example.com.udacityfirstproject.ui.instruction.InstructionFragment"
         android:label="Instruction Fragment"
-        tools:layout="@layout/instruction_fragment" />
+        tools:layout="@layout/instruction_fragment" >
+        <action
+            android:id="@+id/action_instructionFragment_to_shoeDetailsFragment"
+            app:destination="@id/shoeDetailsFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/shoeDetailsFragment"
+        android:name="android.example.com.udacityfirstproject.ui.shoeDetails.ShoeDetailsFragment"
+        android:label="Shoe Details"
+        tools:layout="@layout/shoe_details_fragment"/>
 
 
 </navigation>
