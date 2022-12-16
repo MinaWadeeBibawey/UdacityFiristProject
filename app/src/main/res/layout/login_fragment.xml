@@ -5,11 +5,11 @@
 
         <variable
             name="loginModel"
-            type="android.example.com.udacityfiristproject.models.LoginModel" />
+            type="android.example.com.udacityfirstproject.models.LoginModel" />
 
         <variable
             name="loginViewModel"
-            type="android.example.com.udacityfiristproject.ui.login.LoginViewModel" />
+            type="android.example.com.udacityfirstproject.ui.login.LoginViewModel" />
     </data>
 
     <!--i've used linear layout because it's a simple layout-->

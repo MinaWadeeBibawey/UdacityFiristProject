@@ -1,4 +1,4 @@
-package android.example.com.udacityfiristproject
+package android.example.com.udacityfirstproject
 
 import org.junit.Test
 

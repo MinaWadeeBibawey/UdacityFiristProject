@@ -1,6 +1,6 @@
-package android.example.com.udacityfiristproject
+package android.example.com.udacityfirstproject
 
-import android.example.com.udacityfiristproject.databinding.ActivityMainBinding
+import android.example.com.udacityfirstproject.databinding.ActivityMainBinding
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.databinding.DataBindingUtil
@@ -27,7 +27,8 @@ class MainActivity : AppCompatActivity() {
         val appBarConfiguration = AppBarConfiguration(
             setOf(
                 R.id.loginFragment,
-                R.id.welcomeScreenFragment
+                R.id.welcomeScreenFragment,
+                R.id.instructionFragment
             )
         )
         setupActionBarWithNavController(navController, appBarConfiguration)

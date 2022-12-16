@@ -1,4 +1,4 @@
-package android.example.com.udacityfiristproject.ui.welcome
+package android.example.com.udacityfirstproject.ui.welcome
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData

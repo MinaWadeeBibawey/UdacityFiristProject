@@ -1,6 +1,6 @@
-package android.example.com.udacityfiristproject.ui.login
+package android.example.com.udacityfirstproject.ui.login
 
-import android.example.com.udacityfiristproject.databinding.LoginFragmentBinding
+import android.example.com.udacityfirstproject.databinding.LoginFragmentBinding
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -11,7 +11,7 @@ import androidx.navigation.fragment.findNavController
 
 class LoginFragment : Fragment() {
 
-    lateinit var binding: LoginFragmentBinding
+    private lateinit var binding: LoginFragmentBinding
     private val viewModel: LoginViewModel by viewModels()
 
     override fun onCreateView(
