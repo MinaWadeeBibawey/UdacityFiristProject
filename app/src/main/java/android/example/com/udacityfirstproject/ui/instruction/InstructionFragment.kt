@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
+import androidx.navigation.fragment.findNavController
 
 class InstructionFragment : Fragment() {
 
@@ -26,7 +27,7 @@ class InstructionFragment : Fragment() {
 
         viewModel.agreeInstructionButtonClicked.observe(viewLifecycleOwner) { agreeButtonClicked ->
             if (agreeButtonClicked){
-                Toast.makeText(requireContext(), "Start button clicked", Toast.LENGTH_SHORT).show()
+                findNavController().navigate(InstructionFragmentDirections.actionInstructionFragmentToShoeDetailsFragment())
                 viewModel.onResetInstructionFlag()
             }
         }

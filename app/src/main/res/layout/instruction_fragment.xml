@@ -29,7 +29,7 @@
         <TextView
             android:id="@+id/instruction_points_title_text"
             style="@style/text_style"
-            android:layout_width="382dp"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="60dp"
             android:text="@string/instruction_points_title"
@@ -70,29 +70,32 @@
         <TextView
             android:id="@+id/first_point_text"
             style="@style/text_style"
-            android:layout_width="349dp"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="48dp"
             android:text="@string/first_note_text"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/first_bullet_text"
             app:layout_constraintTop_toBottomOf="@+id/instruction_points_title_text" />
 
         <TextView
             android:id="@+id/second_point_text"
             style="@style/text_style"
-            android:layout_width="349dp"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/second_note_text"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/second_bullet_text"
             app:layout_constraintTop_toBottomOf="@+id/first_point_text" />
 
         <TextView
             android:id="@+id/third_point_text"
             style="@style/text_style"
-            android:layout_width="349dp"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="@string/third_note_text"
             app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/third_bullet_text"
             app:layout_constraintTop_toBottomOf="@+id/second_point_text" />
 
         <Button
@@ -101,8 +104,8 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
-            android:layout_marginTop="@dimen/margin_between_field"
-            android:layout_marginBottom="@dimen/margin_between_field"
+            android:layout_marginStart="12dp"
+            android:layout_marginBottom="28dp"
             android:onClick="@{()->instructionViewModel.onInstructionButtonClicked()}"
             android:text="@string/lets_start"
             android:textAllCaps="false"
