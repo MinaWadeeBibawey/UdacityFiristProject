@@ -44,8 +44,10 @@
         android:label="Instruction Fragment"
         tools:layout="@layout/instruction_fragment" >
         <action
-            android:id="@+id/action_instructionFragment_to_shoeDetailsFragment"
-            app:destination="@id/shoeDetailsFragment"
+            android:id="@+id/action_instructionFragment_to_shoeListFragment"
+            app:destination="@id/shoeListFragment"
+            app:popUpTo="@id/instructionFragment"
+            app:popUpToInclusive="true"
             app:enterAnim="@anim/fade_in"
             app:exitAnim="@anim/fade_out"
             app:popEnterAnim="@anim/fade_in"
@@ -57,6 +59,28 @@
         android:name="android.example.com.udacityfirstproject.ui.shoeDetails.ShoeDetailsFragment"
         android:label="Shoe Details"
         tools:layout="@layout/shoe_details_fragment"/>
+    <fragment
+        android:id="@+id/shoeListFragment"
+        android:name="android.example.com.udacityfirstproject.ui.shoeList.ShoeListFragment"
+        android:label="Shoe List"
+        tools:layout="@layout/shoe_list_fragment">
+        <action
+            android:id="@+id/action_shoeListFragment_to_shoeDetailsFragment"
+            app:destination="@id/shoeDetailsFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out" />
+        <action
+            android:id="@+id/action_shoeListFragment_to_loginFragment"
+            app:destination="@id/loginFragment"
+            app:enterAnim="@anim/fade_in"
+            app:exitAnim="@anim/fade_out"
+            app:popEnterAnim="@anim/fade_in"
+            app:popExitAnim="@anim/fade_out"
+            app:popUpTo="@id/shoeListFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
 
 
 </navigation>

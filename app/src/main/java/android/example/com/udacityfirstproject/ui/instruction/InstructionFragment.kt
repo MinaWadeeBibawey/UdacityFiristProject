@@ -27,7 +27,7 @@ class InstructionFragment : Fragment() {
 
         viewModel.agreeInstructionButtonClicked.observe(viewLifecycleOwner) { agreeButtonClicked ->
             if (agreeButtonClicked){
-                findNavController().navigate(InstructionFragmentDirections.actionInstructionFragmentToShoeDetailsFragment())
+                findNavController().navigate(InstructionFragmentDirections.actionInstructionFragmentToShoeListFragment())
                 viewModel.onResetInstructionFlag()
             }
         }
