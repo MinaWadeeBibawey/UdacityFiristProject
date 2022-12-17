@@ -17,10 +17,9 @@
 
         <TextView
             android:id="@+id/title_text"
-            style="@style/text_style"
+            style="@style/text_title_style"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="52dp"
             android:text="@string/instruction_title"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"

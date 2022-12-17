@@ -28,7 +28,8 @@ class MainActivity : AppCompatActivity() {
             setOf(
                 R.id.loginFragment,
                 R.id.welcomeScreenFragment,
-                R.id.instructionFragment
+                R.id.instructionFragment,
+                R.id.shoeListFragment
             )
         )
         setupActionBarWithNavController(navController, appBarConfiguration)

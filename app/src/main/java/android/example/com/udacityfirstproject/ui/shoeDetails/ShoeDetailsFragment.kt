@@ -30,11 +30,6 @@ class ShoeDetailsFragment : Fragment() {
         viewModel.savedButtonClicked.observe(viewLifecycleOwner) { savedButtonClicked ->
             if (savedButtonClicked) {
                 viewModel.resetSavedButtons()
-                /*Toast.makeText(
-                    requireContext(),
-                    "${viewModel.savedNewShowInTheList.value}",
-                    Toast.LENGTH_SHORT
-                ).show()*/
                 findNavController().popBackStack()
             }
         }
