@@ -6,26 +6,23 @@
 
         <variable
             name="welcomeViewModel"
-            type="android.example.com.udacityfiristproject.ui.welcome.WelcomeScreenViewModel" />
+            type="android.example.com.udacityfirstproject.ui.welcome.WelcomeScreenViewModel" />
     </data>
 
-    <!--i've used linear layout because it's a simple layout-->
+    <!--i've used ConstraintLayout because i want to set the button of start at the bottom of the view-->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
 
         <TextView
+            style="@style/text_title_style"
             android:id="@+id/title_text"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="@dimen/margin_between_field"
-            android:fontFamily="@font/roboto_bold"
             android:text="@string/welcome_title"
-            android:textAlignment="center"
             android:textColor="@color/black"
-            android:textSize="30sp"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"/>
@@ -54,7 +51,7 @@
             android:layout_gravity="bottom"
             android:layout_marginTop="@dimen/margin_between_field"
             android:onClick="@{()->welcomeViewModel.onNavigationClicked()}"
-            android:text="@string/letsS_start"
+            android:text="@string/instruction"
             android:textAllCaps="false"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toStartOf="parent"

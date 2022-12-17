@@ -1,17 +1,48 @@
 <resources>
-    <string name="app_name">UdacityFiristProject</string>
+    <string name="app_name">UdacityFirstProject</string>
 
     <!--Login Screen-->
     <string name="email">Email</string>
     <string name="email_hint">Please Enter Your E-mail</string>
     <string name="password">Password</string>
     <string name="password_hint">Please Enter Your Password</string>
-    <string name="login_with_email">login</string>
+    <string name="login_with_email">Login</string>
     <string name="signup">Signup</string>
     <string name="or_signup">If you don\'t have account you can signup with new account</string>
 
     <!--Welcome Screen-->
     <string name="welcome_title">Welcome to our Shoe App</string>
     <string name="welcome_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</string>
-    <string name="letsS_start">Let\'s Start</string>
+    <string name="instruction">Go to instruction</string>
+
+    <!--Instruction Screen-->
+    <string name="instruction_title">Welcome to the Shoe app</string>
+    <string name="instruction_points_title">Here\'s some instruction points about the app you should to know before start using the shoe app</string>
+    <string name="first_note_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="second_note_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="third_note_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</string>
+    <string name="bullet">\u25CF</string>
+    <string name="lets_start">Let\'s Start</string>
+
+    <!--Show Details Screen-->
+    <string name="shoeName_title">shoe Name</string>
+    <string name="company_title">company</string>
+    <string name="shoeSize_title">shoe Size</string>
+    <string name="description_title">description</string>
+    <string name="shoeName_hint">Please enter shoe name</string>
+    <string name="company_hint">Please enter company</string>
+    <string name="shoeSize_hint">Please enter shoe size</string>
+    <string name="description_hint">Please enter description</string>
+    <string name="shoe_details_title">Fill the data and press save button to save your new shoes in the list</string>
+    <string name="save_button">Save</string>
+    <string name="cancel_button">Cancel</string>
+
+    <!--shoe List-->
+    <string name="shoeName_format">Shoe Name: %s</string>
+    <string name="company_format">Company: %s</string>
+    <string name="shoe_size_format">Shoe Size: %s</string>
+    <string name="description_format">Description: %s</string>
+    <string name="add_new_shoe_to_the_list">Add new Shoe to the list</string>
+    <string name="logout_button">Logout</string>
+
 </resources>
