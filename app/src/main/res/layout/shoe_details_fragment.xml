@@ -107,7 +107,7 @@
                 android:layout_height="wrap_content"
                 android:hint="@string/shoeSize_hint"
                 android:importantForAutofill="no"
-                android:inputType="number"
+                android:inputType="numberDecimal"
                 android:text="@={DoubleConverter.doubleToString(showDetailsModel.shoeSize)}"
                 android:textColorHint="#757575"
                 app:layout_constraintTop_toBottomOf="@+id/shoeSize_text"
