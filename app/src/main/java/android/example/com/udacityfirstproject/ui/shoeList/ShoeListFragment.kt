@@ -49,13 +49,12 @@ class ShoeListFragment : Fragment() {
     }
 
     private fun logOutAction() {
-        viewModel._savedNewShowInTheList = MutableLiveData()
         findNavController().navigate(ShoeListFragmentDirections.actionShoeListFragmentToLoginFragment())
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
-            R.id.loginFragment -> logOutAction()
+            R.id.logout -> logOutAction()
         }
         return super.onOptionsItemSelected(item)
     }

@@ -9,7 +9,7 @@ class SharedViewModel : ViewModel() {
 
     var detailsModel = ShowDetailsModel()
 
-    var _savedNewShowInTheList = MutableLiveData<List<ShowDetailsModel>>()
+   private var _savedNewShowInTheList = MutableLiveData<List<ShowDetailsModel>>()
     val savedNewShowInTheList: LiveData<List<ShowDetailsModel>>
         get() = _savedNewShowInTheList
 
@@ -20,10 +20,6 @@ class SharedViewModel : ViewModel() {
     private var _cancelButtonClicked = MutableLiveData<Boolean>()
     val cancelButtonClicked: LiveData<Boolean>
         get() = _cancelButtonClicked
-
-    private var _logoutButtonClicked = MutableLiveData<Boolean>()
-    val logoutButtonClicked: LiveData<Boolean>
-        get() = _logoutButtonClicked
 
     init {
         _savedButtonClicked.value = false
